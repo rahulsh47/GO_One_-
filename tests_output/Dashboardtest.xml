@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Dashboardtest"
+    errors="1" failures="0" hostname="" id="" package="Dashboardtest" skipped="3"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/knoldus/Documents/GO1_%/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/knoldus/Documents/GO1_%/logs/Dashboardtest_chromedriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1"><![CDATA[
+      Error: An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1
+    at /home/knoldus/Documents/GO1_%/node_modules/selenium-webdriver/remote/index.js:259:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="1. Successful Login" classname="Dashboardtest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="2. Verify user should be able to see the all the activities on the My activity" classname="Dashboardtest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="4. Verify that the user can be able to see the time for all Activity. - Version1" classname="Dashboardtest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

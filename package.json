@@ -1,0 +1,16 @@
+{
+  "name": "go1percent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^122.0.4",
+    "nightwatch": "^3.4.1"
+  }
+}

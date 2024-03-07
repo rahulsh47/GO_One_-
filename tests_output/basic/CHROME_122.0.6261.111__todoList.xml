@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="basic.todoList"
+    errors="0" failures="0" hostname="" id="" package="basic" skipped="0"
+    tests="1" time="4.084" timestamp="">
+  
+    <testcase name="should add a todo using global element()" classname="basic.todoList" time="2.036" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchWindowError
+   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.111)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
