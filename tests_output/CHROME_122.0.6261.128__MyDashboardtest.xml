@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="20">
+
+  <testsuite name="MyDashboardtest"
+    errors="0" failures="0" hostname="" id="" package="MyDashboardtest" skipped="0"
+    tests="20" time="27.91" timestamp="">
+  
+    <testcase name="1. Successful Login" classname="MyDashboardtest" time="0.6110" assertions="0">
+    </testcase>
+  
+    <testcase name="2.  Verify user should be able to see Welcome text " classname="MyDashboardtest" time="0.7780" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="20. Verify user should be able to see all fields in dashboard page" classname="MyDashboardtest" time="0.8590" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3. Verify user should be able to navigate profile page through Profile picture " classname="MyDashboardtest" time="0.06500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4. Verify user should be able Search a Nasher" classname="MyDashboardtest" time="1.754" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="5. Verify user should be able to Change to French Language from dropdown" classname="MyDashboardtest" time="0.04900" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="6. Verify user should be able to Change to English Language from dropdown" classname="MyDashboardtest" time="0.06500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="7. Verify user should be able to Change Application view to Light Mode" classname="MyDashboardtest" time="0.06000" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="8. Verify user should be able to Change Application view to Dark Mode" classname="MyDashboardtest" time="0.05500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="9. Verify user should be able to see Last Contribution" classname="MyDashboardtest" time="0.5980" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="10. Verify user should be able to see Contribution on Motivation tile" classname="MyDashboardtest" time="0.07600" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="15. Verify user should be able to click see all button for Daily motivation tile" classname="MyDashboardtest" time="0.6290" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="11. Verify user should be able to Like specific Contribution" classname="MyDashboardtest" time="2.665" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="12. Verify user should be able to Dislike specific Contribution" classname="MyDashboardtest" time="0.6500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="14. Verify that the user can able to share the contribution in Social Media" classname="MyDashboardtest" time="1.247" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="15. Verify user should be able to navigate Profile page through Settings button " classname="MyDashboardtest" time="0.1030" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="17. Verify user should be able to click on points and redirect to profile page" classname="MyDashboardtest" time="0.5850" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="18.  Verify user should be able to click on Overall ranks and redirect to profile page" classname="MyDashboardtest" time="0.5950" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="19. Verify user should be able to click on Overall score and redirect to profile page" classname="MyDashboardtest" time="0.5720" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="16. Verify user should be able to Logout through Settings button" classname="MyDashboardtest" time="0.8390" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

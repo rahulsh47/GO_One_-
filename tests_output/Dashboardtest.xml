@@ -48,7 +48,7 @@
     </testcase>
     
     <testcase
-      name="4. Verify that the user can be able to see the time for all Activity. - Version1" classname="Dashboardtest">
+      name="4. Verify that the user can be able to see the time for all Activity." classname="Dashboardtest">
       <skipped />
     </testcase>
     

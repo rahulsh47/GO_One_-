@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="14">
+
+  <testsuite name="MyDashboardtest"
+    errors="0" failures="0" hostname="" id="" package="MyDashboardtest" skipped="0"
+    tests="14" time="27.03" timestamp="">
+  
+    <testcase name="1. Successful Login" classname="MyDashboardtest" time="1.715" assertions="0">
+    </testcase>
+  
+    <testcase name="2.  Verify user should be able to see Welcome text " classname="MyDashboardtest" time="0.6350" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="3. Verify user should be able to navigate profile page through Profile picture " classname="MyDashboardtest" time="0.1000" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5. Verify user should be able to Change to French Language from dropdown" classname="MyDashboardtest" time="0.06900" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="6. Verify user should be able to Change to English Language from dropdown" classname="MyDashboardtest" time="0.08300" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="7. Verify user should be able to Change Application view to Light Mode" classname="MyDashboardtest" time="0.07100" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="8. Verify user should be able to Change Application view to Dark Mode" classname="MyDashboardtest" time="0.06400" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="9. Verify user should be able to see Last Contribution" classname="MyDashboardtest" time="0.6080" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="10. Verify user should be able to see Contribution on Motivation tile" classname="MyDashboardtest" time="0.04600" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="15. Verify user should be able to click see all button for Daily motivation tile" classname="MyDashboardtest" time="2.900" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="11. Verify user should be able to Like specific Contribution" classname="MyDashboardtest" time="3.822" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="12. Verify user should be able to Dislike specific Contribution" classname="MyDashboardtest" time="1.132" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="14. Verify that the user can able to share the contribution in Social Media" classname="MyDashboardtest" time="1.407" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="15. Verify user should be able to navigate Profile page through Settings button " classname="MyDashboardtest" time="0.1050" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

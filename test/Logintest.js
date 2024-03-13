@@ -50,28 +50,28 @@ describe('GO1% Login Elements', function(){
 
     it('10. Verify the forgot Password functionality ',function(browser){
         Loginpage.ClickForgotPassword()
-        Loginpage.assert.containsText('@ResetPasswordInfo', 'You should receive an email shortly with further instructions.');
+        Loginpage.assert.textContains('@ResetPasswordInfo', 'You should receive an email shortly with further instructions.');
     });
 
     it('11. Verify clicking on the "Terms of Use" link opens a new page with the terms of use', function(browser){
         Loginpage.ClickTermsofUse();
-        browser.windowHandles(function(result){
+        browser.window.getAllHandles(function(result){
             const originalWindow = result.value[0];
             const handle = result.value[1];
-            this.switchWindow(handle)
+            this.window.switch(handle)
             Loginpage.assert.urlContains('terms-of-use');
-            this.switchWindow(originalWindow)
+            this.window.switch(originalWindow)
         })
     });
 
     it('12.  Verify clicking on the "Privacy policy" link opens a new page with the privacy policy',function(browser){
         Loginpage.ClickPrivacyPolicy();
-       browser.windowHandles(function(result){
+       browser.window.getAllHandles(function(result){
         const originalWindow = result.value[0];
         const handle = result.value[2];
-        this.switchWindow(handle)
+        this.window.switch(handle)
         Loginpage.assert.urlContains('privacy-policy');
-        this.switchWindow(originalWindow)
+        this.window.switch(originalWindow)
        })
     });
 
