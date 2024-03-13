@@ -113,24 +113,24 @@ describe('MyDashboard Test Cases',function(){
     });
 
     
-    // it('13. Verify user should be able to send a Comment on specific Contribution', async function(browser) {
-    //     await browser.waitForElementVisible('div[class="my-dashboard mt-n4"] div:nth-child(1) div:nth-child(1) div:nth-child(2) a:nth-child(3) span:nth-child(2)',5000);
+    it('13. Verify user should be able to send a Comment on specific Contribution', async function(browser) {
+        await browser.waitForElementVisible('div[class="my-dashboard mt-n4"] div:nth-child(1) div:nth-child(1) div:nth-child(2) a:nth-child(3) span:nth-child(2)',5000);
     
-    //     await browser.execute(function() {
-    //         document.querySelector('div[class="my-dashboard mt-n4"] div:nth-child(1) div:nth-child(1) div:nth-child(2) a:nth-child(3) span:nth-child(2)').click();
-    //     });
+        await browser.execute(function() {
+            document.querySelector('div[class="my-dashboard mt-n4"] div:nth-child(1) div:nth-child(1) div:nth-child(2) a:nth-child(3) span:nth-child(2)').click();
+        });
     
-    //     await browser.waitForElementVisible('.form-control.p-2.ng-untouched.ng-pristine.ng-invalid', 5000);
+        await browser.waitForElementVisible('.form-control.p-2.ng-untouched.ng-pristine.ng-invalid', 5000);
     
-    //     await browser.execute(function() {
-    //         document.querySelector('.form-control.p-2.ng-untouched.ng-pristine.ng-invalid').click();
-    //     });
+        await browser.execute(function() {
+            document.querySelector('.form-control.p-2.ng-untouched.ng-pristine.ng-invalid').click();
+        });
     
-    //     browser.setValue('[formcontrolname="comment"]', ["Test Pass",browser.Keys.ENTER,]);
-    //       browser.pause(2000);        
+        browser.setValue('[formcontrolname="comment"]', ["Test Pass",browser.Keys.ENTER,]);
+          browser.pause(2000);        
 
-    //       MyDashboard.expect.element('.p-4.comment-box').text.to.contain('Test Pass');
-    //     });
+          MyDashboard.expect.element('.p-4.comment-box').text.to.contain('Test Pass');
+        });
 
         it('14. Verify that the user can able to share the contribution in Social Media', async function(browser) {
             
