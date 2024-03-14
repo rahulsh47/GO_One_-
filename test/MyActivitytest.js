@@ -1,4 +1,5 @@
 const myActivity = browser.page.MyActivity();
+const global = browser.globals;
 
 describe("GO1% Dashboard", function () {
   before(function (browser) {
@@ -7,7 +8,7 @@ describe("GO1% Dashboard", function () {
   });
 
   it("1. Successful Login", async function (browser) {
-    await myActivity.Login("testemployee", "testemployee");
+    await myActivity.Login(global.username, global.password);
     await browser.execute(function () {
       document.querySelector("#kc-login").click();
     });

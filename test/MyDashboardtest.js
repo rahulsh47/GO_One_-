@@ -1,4 +1,5 @@
 const MyDashboard = browser.page.MyDashboard();
+const global = browser.globals;
 
 describe("MyDashboard Test Cases", function () {
   before(function (browser) {
@@ -7,7 +8,7 @@ describe("MyDashboard Test Cases", function () {
   });
 
   it("1. Successful Login", async function () {
-    await MyDashboard.Login("testemployee", "testemployee");
+    await MyDashboard.Login(global.username, global.password);
     await browser.execute('document.querySelector("#kc-login").click();');
   });
 

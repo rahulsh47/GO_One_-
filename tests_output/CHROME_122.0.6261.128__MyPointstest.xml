@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="MyPointstest"
+    errors="2" failures="0" hostname="" id="" package="MyPointstest" skipped="0"
+    tests="1" time="20.88" timestamp="">
+  
+    <testcase name="1. Successful Login" classname="MyPointstest" time="10.44" assertions="0">
+    <error message="An error occurred while running .setValue() command on &lt;Element [name=@Password]&gt;: Timed out while waiting for element &#34;#password&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Page.Login (/home/knoldus/Documents/GO1_%/nightwatch/page-objects/MyPoints.js:24:61)
+    at DescribeInstance.&lt;anonymous&gt; (/home/knoldus/Documents/GO1_%/test/MyPointstest.js:10:20)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /home/knoldus/Documents/GO1_%/test/MyPointstest.js:10
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––
+     8 | it(&#34;1. Successful Login&#34;, async function () {
+     9 |     // await browser.waitForElementVisible(&#39;&#39;)
+     10 |     await myPoints.Login(&#34;testemployee&#34;, &#34;testemployee&#34;); 
+     11 |     await browser.execute(&#39;document.querySelector(&#34;#kc-login&#34;).click();&#39;);
+     12 |     // browser.pause();
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /home/knoldus/Documents/GO1_%/test/MyPointstest.js:10
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––
+     8 | it(&#34;1. Successful Login&#34;, async function () {
+     9 |     // await browser.waitForElementVisible(&#39;&#39;)
+     10 |     await myPoints.Login(&#34;testemployee&#34;, &#34;testemployee&#34;); 
+     11 |     await browser.execute(&#39;document.querySelector(&#34;#kc-login&#34;).click();&#39;);
+     12 |     // browser.pause();
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
