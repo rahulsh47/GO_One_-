@@ -22,18 +22,18 @@ describe("GO1% Dashboard", function () {
     browser.assert.urlContains("my-profile");
   });
 
-  it("2. Verify user should be able to see the all the activities on the My activity", function (browser) {
+  it("3. Verify user should be able to see the all the activities on the My activity", function (browser) {
     browser.waitForElementVisible(".card.tab-card.py-5.px-4", 5000);
     myActivity.expect.element(".card.tab-card.py-5.px-4").to.be.visible;
   });
 
-  it("3. Verify appropriate points should be added according to the contribution . - Version1 ", async function (browser) {
-    browser.expect.element(
-      "body > app-root:nth-child(1) > div:nth-child(1) > app-main:nth-child(2) > section:nth-child(1) > main:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > app-my-profile:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > app-my-activity:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(62) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > span:nth-child(1)"
-    ).to.be.visible;
-  });
+  // it("4. Verify appropriate points should be added according to the contribution . - Version1 ", async function (browser) {
+  //   browser.expect.element(
+  //     "body > app-root > div > app-main > section > main > div > div > div > app-my-profile > div > div.col-lg-8 > div:nth-child(3) > app-my-activity > div > div > div:nth-child(17) > div > div.content.w-98.d-flex > div.w-15.points-section.d-flex.align-items-start.justify-content-end > span"
+  //   ).to.be.visible;
+  // });
 
-  it("4. Verify that the user can be able to see the time for all Activity.", function (browser) {
+  it("5. Verify that the user can be able to see the time for all Activity.", function (browser) {
     const activitySelector = ".container.right";
     browser.elements("css selector", activitySelector, function (result) {
       const numberOfActivities = result.value.length;

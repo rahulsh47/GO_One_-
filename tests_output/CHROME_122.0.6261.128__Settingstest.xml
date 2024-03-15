@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="Settingstest"
+    errors="0" failures="1" hostname="" id="" package="Settingstest" skipped="0"
+    tests="2" time="22.91" timestamp="">
+  
+    <testcase name="1. Verify user should be able to see all fields in Profile Details page" classname="Settingstest" time="1.223" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3. Verify user should be able to select any Competency" classname="Settingstest" time="7.336" assertions="1">  <failure message="Timed out while waiting for element &lt;div[class=&#34;left-div-button-div mt-2&#34;] button[class=&#34;edit-detail-button ng-star-inserted&#34;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5229ms)">    at DescribeInstance.&lt;anonymous&gt; (/home/knoldus/Documents/GO1_%/test/Settingstest.js:49:23)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

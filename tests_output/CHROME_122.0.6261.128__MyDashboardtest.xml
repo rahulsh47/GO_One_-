@@ -1,141 +1,178 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
-            tests="2">
+<testsuites errors="0"
+            failures="0"
+            tests="21">
 
   <testsuite name="MyDashboardtest"
-    errors="1" failures="1" hostname="" id="" package="MyDashboardtest" skipped="19"
-    tests="2" time="14.56" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="MyDashboardtest" skipped="0"
+    tests="21" time="48.88" timestamp="">
   
-    <testcase name="1. Successful Login" classname="MyDashboardtest" time="1.455" assertions="0">
+    <testcase name="1. Successful Login" classname="MyDashboardtest" time="3.316" assertions="0">
     </testcase>
   
-    <testcase name="2.  Verify user should be able to see Welcome text " classname="MyDashboardtest" time="5.257" assertions="1">  <failure message="Expected element @WelcomeMessage &lt;.font-weight-light.overall-txt-color&gt; to be visible - element was not found - expected &#34;visible&#34; but got: &#34;not found&#34; (5195ms)">    at DescribeInstance.&lt;anonymous&gt; (/home/knoldus/Documents/GO1_%/test/MyDashboardtest.js:16:24)</failure>
+    <testcase name="2.  Verify user should be able to see Welcome text " classname="MyDashboardtest" time="0.03600" assertions="1">
 
-    
-    <error message="Unable to locate element: .font-weight-light.overall-txt-color using css selector" type="error"><![CDATA[
-    NoSuchElementError: Unable to locate element: .font-weight-light.overall-txt-color using css selector
-    at throwDecodedError (/home/knoldus/Documents/GO1_%/node_modules/selenium-webdriver/lib/error.js:524:15)
-    at ChromeDriver.handleErrorResponse (/home/knoldus/Documents/GO1_%/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:400:7)
-    at TransportActions.makeResult (/home/knoldus/Documents/GO1_%/node_modules/nightwatch/lib/transport/selenium-webdriver/actions.js:85:20)
-    at Object.locateMultipleElements (/home/knoldus/Documents/GO1_%/node_modules/nightwatch/lib/transport/selenium-webdriver/actions.js:71:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async LocateElement.findElement (/home/knoldus/Documents/GO1_%/node_modules/nightwatch/lib/element/locator.js:167:20)
-    ]]></error>
     
     </testcase>
   
-
-  
-    <system-err>
-       NoSuchElementError
-   An element could not be located on the page using the given search parameters.
-
-    Try fixing by :
-    1. Please inspect the html before the step
-    2. Verify if an element with the mentioned selector is present in the DOM tree
-    </system-err>
-  
+    <testcase name="20. Verify user should be able to see all fields in dashboard page" classname="MyDashboardtest" time="1.827" assertions="9">
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="3. Verify user should be able to navigate profile page through Profile picture " classname="MyDashboardtest" time="0.06200" assertions="2">
+
     
-    <testcase
-      name="20. Verify user should be able to see all fields in dashboard page" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="4. Verify user should be able Search a Nasher" classname="MyDashboardtest" time="1.808" assertions="1">
+
     
-    <testcase
-      name="3. Verify user should be able to navigate profile page through Profile picture " classname="MyDashboardtest">
-      <skipped />
     </testcase>
+  
+    <testcase name="5. Verify user should be able to Change to French Language from dropdown" classname="MyDashboardtest" time="0.05200" assertions="2">
+
     
-    <testcase
-      name="4. Verify user should be able Search a Nasher" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="6. Verify user should be able to Change to English Language from dropdown" classname="MyDashboardtest" time="0.05100" assertions="2">
+
     
-    <testcase
-      name="5. Verify user should be able to Change to French Language from dropdown" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="7. Verify user should be able to Change Application view to Light Mode" classname="MyDashboardtest" time="0.05600" assertions="2">
+
     
-    <testcase
-      name="6. Verify user should be able to Change to English Language from dropdown" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="8. Verify user should be able to Change Application view to Dark Mode" classname="MyDashboardtest" time="0.05400" assertions="2">
+
     
-    <testcase
-      name="7. Verify user should be able to Change Application view to Light Mode" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="9. Verify user should be able to see Last Contribution" classname="MyDashboardtest" time="4.295" assertions="2">
+
     
-    <testcase
-      name="8. Verify user should be able to Change Application view to Dark Mode" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="10. Verify user should be able to see Contribution on Motivation tile" classname="MyDashboardtest" time="0.04500" assertions="2">
+
     
-    <testcase
-      name="9. Verify user should be able to see Last Contribution" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="15. Verify user should be able to click see all button for Daily motivation tile" classname="MyDashboardtest" time="1.127" assertions="2">
+
     
-    <testcase
-      name="10. Verify user should be able to see Contribution on Motivation tile" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="11. Verify user should be able to Like specific Contribution" classname="MyDashboardtest" time="2.658" assertions="2">
+
     
-    <testcase
-      name="15. Verify user should be able to click see all button for Daily motivation tile" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="12. Verify user should be able to Dislike specific Contribution" classname="MyDashboardtest" time="0.5940" assertions="2">
+
     
-    <testcase
-      name="11. Verify user should be able to Like specific Contribution" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="13. Verify user should be able to send a Comment on specific Contribution" classname="MyDashboardtest" time="2.310" assertions="3">
+
     
-    <testcase
-      name="12. Verify user should be able to Dislike specific Contribution" classname="MyDashboardtest">
-      <skipped />
+
+    
+
+    
     </testcase>
+  
+    <testcase name="14. Verify that the user can able to share the contribution in Social Media" classname="MyDashboardtest" time="1.594" assertions="3">
+
     
-    <testcase
-      name="13. Verify user should be able to send a Comment on specific Contribution" classname="MyDashboardtest">
-      <skipped />
+
+    
+
+    
     </testcase>
+  
+    <testcase name="15. Verify user should be able to navigate Profile page through Settings button " classname="MyDashboardtest" time="0.1020" assertions="3">
+
     
-    <testcase
-      name="14. Verify that the user can able to share the contribution in Social Media" classname="MyDashboardtest">
-      <skipped />
+
+    
+
+    
     </testcase>
+  
+    <testcase name="17. Verify user should be able to click on points and redirect to profile page" classname="MyDashboardtest" time="0.6140" assertions="2">
+
     
-    <testcase
-      name="15. Verify user should be able to navigate Profile page through Settings button " classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="18.  Verify user should be able to click on Overall ranks and redirect to profile page" classname="MyDashboardtest" time="1.109" assertions="2">
+
     
-    <testcase
-      name="17. Verify user should be able to click on points and redirect to profile page" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="19. Verify user should be able to click on Overall score and redirect to profile page" classname="MyDashboardtest" time="0.5690" assertions="2">
+
     
-    <testcase
-      name="18.  Verify user should be able to click on Overall ranks and redirect to profile page" classname="MyDashboardtest">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="16. Verify user should be able to Logout through Settings button" classname="MyDashboardtest" time="0.9100" assertions="3">
+
     
-    <testcase
-      name="19. Verify user should be able to click on Overall score and redirect to profile page" classname="MyDashboardtest">
-      <skipped />
+
+    
+
+    
     </testcase>
+  
+
+  
+
     
-    <testcase
-      name="16. Verify user should be able to Logout through Settings button" classname="MyDashboardtest">
-      <skipped />
-    </testcase>
-    
+
   
   </testsuite>
 </testsuites>
